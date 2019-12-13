@@ -13,3 +13,5 @@ jobs:
       uses: ./
       with:
         run-script-python3: 'test/version.py'
+    - name: Get the output result
+      run: echo "The result is ${{ steps.testAction.outputs.result-python3 }}"
