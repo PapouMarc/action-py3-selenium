@@ -1,0 +1,15 @@
+name: Test Validation Action
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: run custom docker testLog
+      id: testAction
+      uses: ./
+      with:
+        run-script-python3: 'test/version.py'
