@@ -1,3 +1,6 @@
+![](https://github.com/PapouMarc/action-py3-selenium/workflows/Test%20Validation%20Action/badge.svg)
+
+
 # docker python3 and selenium action
 
 you can run file python3 or ansible file with config chromium/Selenium
