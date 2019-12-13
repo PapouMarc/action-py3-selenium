@@ -1,0 +1,16 @@
+# action.yml
+name: 'Run Python3'
+description: 'Run file Python3'
+inputs:
+  run-script-python3:  # id of input
+    description: 'Run Script Python3'
+    required: true
+    default: 'Noscript'
+outputs:
+  result-python3: # id of output
+    description: 'Result execute Python3'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.run-script-python3 }}
