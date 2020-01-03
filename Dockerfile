@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu:ans-py3-pip3-selenium
+FROM papoumarc/ubuntu:bionic-j8-app-selenium
 
 COPY entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
