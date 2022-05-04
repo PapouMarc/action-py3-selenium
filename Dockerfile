@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu-focal-j11-pp-selenium:20220429
+FROM papoumarc/ubuntu-focal-j11-pp-selenium:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
