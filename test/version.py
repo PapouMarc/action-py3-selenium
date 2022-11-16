@@ -9,4 +9,4 @@ _text=sys.version
 for _n in installed_packages_list:
   _text = '{}\n{}'.format(_text,_n)
 
- print(_text)
+print(_text)
