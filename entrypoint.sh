@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
-result=`python3 ${1}`
+result=`python3 $@`
 
-echo ::set-output name=result-python3::${result}
+echo "result-python3=${result}" >> $GITHUB_OUTPUT
