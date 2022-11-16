@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu-jammy-j17-pp-selenium:20220429
+FROM papoumarc/ubuntu-jammy-j17-pp-selenium:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
