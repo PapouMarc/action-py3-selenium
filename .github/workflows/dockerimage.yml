@@ -3,7 +3,7 @@ name: Test Validation Action
 on:
   push:
     branches:
-      - 'master'
+      - 'v3.0.x'
     paths-ignore:
       - '.github/**'
 
