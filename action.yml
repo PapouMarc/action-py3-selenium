@@ -7,7 +7,7 @@ inputs:
     required: true
     default: 'Noscript'
 outputs:
-  result-python3: # id of output
+  resultpython3: # id of output
     description: 'Result execute Python3'
 runs:
   using: 'docker'
