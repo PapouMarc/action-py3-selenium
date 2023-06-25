@@ -19,4 +19,4 @@ jobs:
       with:
         run-script-python3: 'test/version.py'
     - name: Get the output result
-      run: echo -e "The result is ${{ steps.testAction.outputs.result-python3 }}"
+      run: echo -e "The result is ${{ steps.testAction.outputs.resultpython3 }}"
