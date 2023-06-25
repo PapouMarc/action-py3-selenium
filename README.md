@@ -3,7 +3,7 @@
 
 # docker python3 and selenium action
 
-you can run file python3 or ansible file with config chromium/Selenium
+you can run file python3 or ansible file with config chromium/Selenium before version 4.10.0 selenium
 
 ## Inputs
 
